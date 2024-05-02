@@ -8,7 +8,7 @@ const rutasUsuarios =require('./routes/routerUser')
 const rutasProductos = require('./routes/routerProductos')
 require('dotenv').config();
 const PORT = process.env.PORT || 3000
-const DB_USER_CONNECTION =process.env.DB || 'mongodb+srv://saracastillalagata:$ara123@cluster0.gxqt86e.mongodb.net/MiProyecto'
+const DB =process.env.DB || 'mongodb+srv://saracastillalagata:$ara123@cluster0.gxqt86e.mongodb.net/MiProyecto'
 const LINK_CLIENTE = process.env.LINK_CLIENTE ||'http://localhost:5173/'
 const app = express();
 
